@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Figtree-VariableFont";
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+html {
+  font-size: 16px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4d04e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 425px;
+  height: 550px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 8px 8px black;
+  border: 1px black solid;
+  color: #111;
+}
+#pill {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 4px 12px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  background-color: #f4d04e;
+  border-radius: 4px;
+  font-family: Figtree-VariableFont;
+}
+#logo {
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+p:first-of-type {
+  color: #111;
+  font-family: Figtree-VariableFont;
+  font-weight: 500;
+  font-size: 15px;
+}
+#bottom {
+  display: flex;
+  align-items: center;
+  font-family: Figtree-VariableFont;
+}
+#bottom img {
+  height: 33px;
+}
+#author {
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
+.attribution {
+  display: block;
+}
+h1 {
+  font-size: 24px;
+  font-family: Figtree-VariableFont;
+}
+h1:hover {
+  cursor: pointer;
+}
+h1:active {
+  color: #f4d04e;
+}
+p {
+  font-size: 18px;
+  font-family: Figtree-VariableFont;
+  color: #6b6b6b;
+  line-height: 1.4;
+}
